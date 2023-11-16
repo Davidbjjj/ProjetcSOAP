@@ -1,4 +1,4 @@
-package Aplicacao;
+package Aplicacaoo;
 
 import com.SOAPI.ProjectWEB.ProjetoAula1.CertidaoImplement;
 import jakarta.xml.ws.Endpoint;
@@ -8,7 +8,7 @@ public class Aplication {
         CertidaoImplement certidaoNascimento = new CertidaoImplement();
         Endpoint.publish("http://localhost:8085/servico/certidao", certidaoNascimento);
         System.out.println("Serviço publicado com sucesso");
-        
+
     }
 
 }
