@@ -8,6 +8,7 @@ public class Aplication {
         CertidaoImplement certidaoNascimento = new CertidaoImplement();
         Endpoint.publish("http://localhost:8085/servico/certidao", certidaoNascimento);
         System.out.println("Serviço publicado com sucesso");
+        
     }
 
 }
